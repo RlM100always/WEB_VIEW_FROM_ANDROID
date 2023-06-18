@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#EFE707E7"
+    android:layout_margin="7dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="@drawable/img"
+        android:layout_height="280dp"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:weightSum="5"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_margin="4dp"
+                android:id="@+id/geeks"
+                android:drawableLeft="@drawable/geeks"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:textColor="#09090A"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:gravity="center_vertical"
+                android:backgroundTint="#F6ECEEF4"
+                android:text="GEEKSFORGEEKS" />
+
+
+            <Button
+                android:layout_margin="4dp"
+                android:id="@+id/youtube"
+                android:drawableLeft="@drawable/youtube"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:textColor="#000009"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:gravity="center_vertical"
+                android:backgroundTint="#F2F8F4F4"
+                android:text="YOUTUBE" />
+            <Button
+                android:layout_margin="4dp"
+
+                android:id="@+id/google"
+                android:drawableLeft="@drawable/google"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:textColor="#000009"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:gravity="center_vertical"
+                android:backgroundTint="#E4F9F6F6"
+                android:text="GOOGLE" />
+            <Button
+                android:layout_margin="4dp"
+                android:id="@+id/facebook"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/fblogo"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:textColor="#000009"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:backgroundTint="#F6FEFCFC"
+                android:text="FACEBOOK" />
+            <Button
+                android:layout_margin="4dp"
+                android:id="@+id/du"
+                android:drawableLeft="@drawable/newdu"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="#161618"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:backgroundTint="#F4F2F2"
+                android:text="DHAKA UNIVERSITY" />
+
+
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>
